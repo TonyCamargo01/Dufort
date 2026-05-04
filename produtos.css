@@ -1,0 +1,21 @@
+
+
+.texto {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+
+.container{
+  display: inline-block;
+  vertical-align: top; /* Alinha o topo das imagens */
+  margin: 5px;
+}
